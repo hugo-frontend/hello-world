@@ -1,0 +1,232 @@
+body{
+    background: #f5f5f5;
+}
+.goods-detail-page .main{
+    padding: 1px 50px;
+    background: #fff;
+}
+.background-color-gray{
+    height: 30px;
+    background: #e8e8e8
+}
+.productMess {
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.detailsContent .rating>span,.productMess li,.promotionTitle p {
+    float: left
+}
+
+.productMess li.productMessImg {
+    width: 400px
+}
+
+.productMess li.productMessShop {
+    position: relative;
+    width: calc(100% - 470px);
+    margin-left: 70px
+}
+
+div.zoomDiv {
+    z-index: 999;
+    position: absolute;
+    top: 185px !important;
+    left: 0;
+    width: 400px;
+    height: 400px !important;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    text-align: center;
+    overflow: hidden;
+}
+div.zoomMask {
+    position: absolute;
+    background: url(image/mask.png) 0 0;
+    cursor: move;
+    z-index: 1;
+}
+.tb-booth {
+    border: 1px solid #cdcdcd;
+    position: relative;
+    z-index: 1;
+}
+.tb-s310, .tb-s310 a, div.zoomDiv {
+    height: 400px;
+    width: 400px;
+}
+.tb-s310, .tb-s310 img {
+    max-height: 400px;
+    max-width: 400px;
+}
+.tb-pic a img {
+    vertical-align: middle;
+    width: 100%;
+}
+#imageMenu{
+    margin-top: 5px;
+}
+#imageMenu li{
+    margin-right: 10px;
+    border: 1px solid #cdcdcd;
+    width: 60px;
+}
+#imageMenu .tb-selected{
+    border: 1px solid #f22c2d;
+}
+.productMessShop h1{
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.goods-brief-description{
+    margin-bottom: 10px;
+    color: #666;
+}
+.brandPriceBox {
+    padding: 10px 30px;
+    background: #eaeaea;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.brandPriceBox td{
+    padding: 10px 0;
+}
+
+.deposit{
+    color: #f22c2d;
+    font-weight: bold;
+}
+.deposit .currency{
+    margin-right: 5px;
+    font-size: 22px;
+}
+.deposit .price{
+    margin-right: 5px;
+    font-size: 22px;
+}
+
+.goods-select td{
+    padding: 10px 20px 10px 0;
+    color: #999;
+}
+.goods-select td input[type=radio]{
+    display: none;
+}
+.system-radio-label{
+    padding: 2px 7px;
+    color: #999;
+    border: 1px solid #999;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.goods-select td input:checked+label{
+    color: #f22c2d;
+    border: 1px solid #f22c2d;
+}
+.shopping-count-box{
+    display: inline-block;
+}
+.shopping-count {
+    height: 35px;
+    width: 50px;
+    margin: 5px 5px 5px 0;
+    text-align: center;
+    border: 1px #cdcdcd solid;
+}
+.shopping-count-box .add-count, .shopping-count-box .reduce-count {
+    border: 1px solid #cdcdcd;
+    color: #a7a6ac;
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+    line-height: 12px;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    cursor: pointer;
+}
+.shopping-count-box .add-count {
+    top: -10px;
+    left: -4px;
+}
+.shopping-count-box .reduce-count {
+    left: -27px;
+    top: 10px;
+}
+.buy-now{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background: #f22c2d;
+    border: none;
+    cursor: pointer;
+}
+.goods-title{
+    padding: 0 30px;
+    height: 40px;
+    line-height: 40px;
+    border-left: 5px solid #f22c2d;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background: #eaeaea;
+}
+.goods-details,
+.payment-method,
+.specifications {
+    margin: 25px 0;
+    padding-left: 35px;
+}
+.details-list,
+.payment-method-list,
+.policy-list {
+    padding-left: 20px; 
+}
+.details-list li,
+.payment-method-list li,
+.policy-list li,
+.after-sale-policy p {
+    list-style: decimal;
+    line-height: 24px;
+    color: #333;
+}
+.specifications-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.specifications-table td{
+    border: 1px solid #eaeaea;
+    padding: 10px 20px;
+    color: #333;
+}
+.after-sale-policy{
+    padding-left: 35px;
+    margin-bottom: 40px;
+}
+.after-sale-policy h3{
+    list-style: decimal;
+    line-height: 24px;
+    color: #000;
+    margin-top: 25px;
+}
+.online-service1{
+    display: inline-block;
+    width: 100px;
+    height: 24px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: url(../../common/images/small_icon.png) -17px -397px no-repeat;
+}
+.online-service2 {
+    display: inline-block;
+    width: 100px;
+    height: 24px;
+    margin-top: 5px;
+    background: url(../../common/images/small_icon.png) -137px -397px no-repeat;
+}

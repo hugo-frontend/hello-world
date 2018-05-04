@@ -1,0 +1,66 @@
+body {
+    background: #f5f5f5;
+}
+.mining-machine-page .main{
+    background: #FFF;
+    padding: 20PX;
+}
+.background-color-gray {
+    height: 30px;
+    background: #e8e8e8
+}
+.mining-machine-page h1 {
+    font-size: 24px;
+    color: #333;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 40px;
+}
+.mining-machine-list{
+    width: 100%;
+    background: #f5f5f5;
+    margin-bottom: 100px;
+}
+.mining-machine-list td {
+    vertical-align: middle;
+    text-align: left;
+}
+.mining-machine-list .goods-img{
+    width: 200px;
+    padding: 0 20px;
+    text-align: center;
+    margin-left: 40px;
+}
+.goods-img img{
+    width: 100%;
+}
+.mining-machine-list h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.goods-price {
+    margin: 0;
+    display: block;
+    margin-bottom: 10px;
+    background: none;
+    font-weight: bold;
+    padding: 0;
+}
+.goods-price .currency,
+.goods-price .price {
+    font-size: 18px;
+    color: #f22c2d;
+}
+
+.hot-style {
+    float: none;
+    padding: 1px 15px 2px;
+    border-radius: 2px;
+}
+
+.buy-now{
+    width: 140px;
+    border-radius: 3px;
+}

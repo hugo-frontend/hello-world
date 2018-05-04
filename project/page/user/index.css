@@ -1,0 +1,238 @@
+body {
+    background: #f5f5f5;
+}
+.user-page .main{
+    background: #FFF;
+    padding: 20PX;
+    overflow: hidden;
+}
+.background-color-gray {
+    height: 30px;
+    background: #e8e8e8
+}
+.user-page h1 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.user-menu{
+    width: 200px;
+    float: left;
+}
+.user-menu .user-menu-item a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background: #f5f5f5;
+    color: #999;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.user-menu .user-menu-item a:hover, .user-menu .user-menu-item.active a{
+    background: #f22c2d;
+    color: #FFF;
+}
+.user-content{
+    width: calc(100% - 225px);
+    margin-left: 20px;
+    float: left;
+    min-height: 850px;
+    margin-bottom: 50px;
+}
+.record-list, .adderss-list{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    border-collapse: collapse;
+}
+.record-list th{
+    height: 40px;
+    background: #eaeaea;
+    color: #666;
+    padding-left: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+.record-list td{
+    padding: 10px;
+}
+.record-list h3{
+    color: #333;
+    font-size: 15px;
+}
+.record-list p{
+    color: #666;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.record-goods-img{
+    width: 80px;
+    margin: 10px 0;
+    border: 1px solid #eaeaea;
+}
+.record-goods-img img{
+    width: 100%;
+}
+.goods-price {
+    margin: 0;
+    display: block;
+    margin-bottom: 10px;
+    background: none;
+    padding: 0;
+}
+.goods-price .currency,
+.goods-price .price {
+    font-size: 15px;
+    color: #666;
+}
+.check-payment-info{
+    display: block;
+    text-decoration: none;
+    color: #f22c2d;
+    margin-top: 10px;
+}
+.address-list{
+    width: 800px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 20px;
+}
+.address-list td{
+    padding: 10px 20px;
+}
+.address-info h3{
+    font-size: 14px;
+    color: #333;
+}
+.address-info p{
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+}
+.address-modify{
+    font-size: 16px;
+    background: #f22c2d;
+    color: #FFF;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.address-delete{
+    font-size: 16px;
+    background: #999;
+    color: #FFF;
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.receiver, .user-phone, .address-details, .zip-code{
+    margin-right: 15px;
+}
+
+.address-modify-box{
+    width: 100%;
+    margin-top: 50px;
+}
+.address-modify-box span{
+    font-size: 15px;
+    color: #333
+}
+.address-modify-box td{
+    padding: 15px 10px;
+}
+.address-modify-box td:first-child{
+    text-align: right;
+}
+.choose-box{
+    float: left;
+    width: 200px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 5px;
+}
+.choose-box select{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+}
+.choose-box label{
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #eaeaea;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 0 20px 0 5px;
+    font-size: 15px;
+}
+
+.choose-box label::after{
+    content: "\25BC";
+    position: absolute;
+    right: 5px;
+    
+}
+.detailed-address-text{
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    width: 630px;
+}
+.address-modify-box input{
+    width: 630px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #eaeaea;
+    padding: 0 10px;
+}
+.save-changes{
+    text-align: center;
+}
+.save-changes-btn{
+    width: 160px;
+    height: 30px;
+    color: #FFF;
+    background: #f22c2d;
+    text-align: center;
+    margin: 50px auto 0;
+    border: none;
+    font-size: 16px;
+}
+
+.account-setting td:first-child{
+    text-align: right;
+}
+.account-setting td{
+    padding: 15px 10px;
+    vertical-align: top;
+}
+.account-setting span{
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    line-height: 30px;
+}
+.account-setting p{
+    color: #999
+}
+.account-setting input{
+    width: 630px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #eaeaea;
+    padding: 0 10px;
+}

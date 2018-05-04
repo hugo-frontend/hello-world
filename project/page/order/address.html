@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../../common/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../common/css/parsley.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="top-banner">
+            <div class="main">
+                <span class="top-left-name">FSMAIN星际大陆</span>
+                <p class="top-right-name">
+                    <span class="right-name-item">星</span>
+                    <span class="right-name-item">际</span>
+                    <span class="right-name-item">大</span>
+                    <span class="right-name-item">陆</span>
+                </p>
+            </div>
+        </div>
+        <div class="nav-box">
+            <div class="main">
+                <span class="logo-icon"></span>
+                <nav>
+                    <a href="#" class="nav-item">首页</a>
+                    <a href="#" class="nav-item">矿机</a>
+                    <a href="#" class="nav-item">托管</a>
+                    <a href="#" class="nav-item">FAQ</a>
+                    <a href="#" class="nav-item">代理信息</a>
+                </nav>
+                <div class="contact-box">
+                    <p class="contact-title">24小时热线</p>
+                    <div class="contact-phone">
+                        <span class="contact-icon"></span>
+                        17603046010
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="background-color-gray"></div>
+
+    <!-- USER -->
+    <div class="user-page">
+        <div class="main">
+            <div class="user-menu">
+                <ul>
+                    <li class="user-menu-item active">
+                        <a href="">购买记录</a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a href="">地址管理</a>
+                    </li>
+                    <li class="user-menu-item">
+                        <a href="">账户设置</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-content">
+                <h1>已有地址</h1>
+                <table class="address-list">
+                    <tr>
+                        <td>
+                            <div class="address-info">
+                                <h3>默认地址</h3>
+                                <p class="receiver">
+                                    <span>收货人：</span> 徐琳</p>
+                                <p class="user-phone">
+                                    <span>手机：</span> 17651354641</p>
+                                <p class="address-details">
+                                    <span>地址：</span> 中国 福建省 涵江区 涵西街道 坂雪岗大道2501号1205</p>
+                                <p class="zip-code">
+                                    <span>邮编：</span> 425789</p>
+                            </div>
+                        </td>
+                        <td width="150">
+                            <p>
+                                <button class="address-modify">修改</button>
+                            </p>
+                            <p>
+                                <button class="address-delete">删除</button>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+                <form action="" class="address-modify-form" data-parsley-validate>
+                    <table class="address-modify-box">
+                        <tr>
+                            <td width="150">
+                                <span>所在地区</span>
+                            </td>
+                            <td>
+                                <div class="choose-box">
+                                    <label for="choose-country">选择国家</label>
+                                    <select name="" id="choose-country">
+                                        <option value="" selected>选择国家</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                    </select>
+                                </div>
+                                <div class="choose-box">
+                                    <label for="choose-province">选择省份</label>
+                                    <select name="" id="choose-province">
+                                        <option value="" selected>选择省份</option>
+                                        <option value="">8</option>
+                                        <option value="">9</option>
+                                    </select>
+                                </div>
+                                <div class="choose-box">
+                                    <label for="choose-area">选择地区</label>
+                                    <select name="" id="choose-area">
+                                        <option value="">选择地区</option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>详细地址</span>
+                            </td>
+                            <td>
+                                <textarea name="" id="" cols="30" rows="5" class="detailed-address-text" data-parsley-required="true"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>收货人姓名</span>
+                            </td>
+                            <td>
+                                <input type="text" class="receiver-name" data-parsley-required="true">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>手机号码</span>
+                            </td>
+                            <td>
+                                <input type="text" class="receiver-phone" data-parsley-required="true">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>联系邮箱</span>
+                            </td>
+                            <td>
+                                <input type="text" class="zip-code" data-parsley-required="true">
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="save-changes">
+                        <button type="submit" class="save-changes-btn">保存修改</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 尾部 -->
+    <footer>
+        <div class="footer-box">
+            <div class="main">
+                <div class="copyright">
+                    <span class="company-logo"></span>
+                    <p class="copyright-info">© 2017All Rights Reserved</p>
+                </div>
+                <div class="wechat-info">
+                    <img src="../../common/images/wechat_icon.jpg" alt="wechat">
+                    <p>扫一扫 关注我们</p>
+                </div>
+                <div class="contact-us">
+                    <p>
+                        <span class="knowledge-planet-icon"></span>知识星球：星际大陆</p>
+                    <p>
+                        <span class="weibo-icon"></span>微博：IPFSMAIN星际大陆</p>
+                    <p>
+                        <span class="address-icon"></span>公司地址：深圳市宝安区公坊创客基地iMakerbase</p>
+                </div>
+                <div class="friend-link">
+                    <span>友情连接 : </span>
+                    <ul class="link">
+                        <li>
+                            <a href="#">IPFSMAIN星际大陆</a>
+                        </li>
+                        <li>
+                            <a href="#">IPFS官网 </a>
+                        </li>
+                        <li>
+                            <a href="#">Filecoin</a>
+                        </li>
+                        <li>
+                            <a href="#">区块之家</a>
+                        </li>
+                        <li>
+                            <a href="#">币趋势</a>
+                        </li>
+                        <li>
+                            <a href="#">BTC123</a>
+                        </li>
+                        <li>
+                            <a href="#">挖币网</a>
+                        </li>
+                        <li>
+                            <a href="#">玩币族</a>
+                        </li>
+                        <li>
+                            <a href="#">价值区块链</a>
+                        </li>
+                        <li>
+                            <a href="#">比特街</a>
+                        </li>
+                        <li>
+                            <a href="#">比特币</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../../common/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../../common/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="../../common/js/parsley.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
