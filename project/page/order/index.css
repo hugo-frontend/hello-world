@@ -1,16 +1,17 @@
 body {
     background: #f5f5f5;
 }
-.order-page .main {
+.order-success-page .main, .order-info-page .main {
     background: #FFF;
     padding: 20PX;
     overflow: hidden;
+    min-height: 900px;
 }
 .background-color-gray {
     height: 30px;
     background: #e8e8e8
 }
-.order-page h1 {
+.order-success-page h1 {
     font-size: 20px;
     color: #333;
     padding-bottom: 15px;
@@ -35,17 +36,17 @@ body {
     font-size: 14px;
     color: #333;
 }
-.order-info{
+.success-info{
     padding: 25px 220px;
     border-bottom: 1px dotted #e6e6e6;
 }
-.order-info h3{
+.success-info h3{
     font-size: 16px;
     color: #333;
     margin-bottom: 25px;
     font-weight: bold;
 }
-.order-info p {
+.success-info p {
     font-size: 14px;
     color: #666;
     margin-top: 20px;
@@ -85,4 +86,142 @@ body {
 .transfer-info p{
     font-size: 14px;
     color: #666;
+}
+.order-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #d8d8d8;
+}
+.order-info-icon{
+    float: left;
+    width: 26px;
+    height: 30px;
+    margin: 10px 10px 0 10px;
+    background: url(../../common/images/small_icon.png) -120px -305px no-repeat;
+}
+.order-list{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.order-list th{
+    color: #333;
+    padding-left: 10px;
+    font-size: 13px;
+    padding: 20px 10px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.order-list th:first-child{
+    padding-left: 60px;
+}
+.order-list td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #d8d8d8;
+}
+.order-list td:first-child{
+    padding: 10px 0 10px 40px;
+}
+.order-list .order-text-info{
+    text-align: left
+}
+.order-list h3{
+    color: #333;
+    font-size: 13px;
+}
+.order-list p{
+    color: #666;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.order-goods-img{
+    width: 100px;
+    margin: 10px 0;
+    border: 1px solid #eaeaea;
+}
+.order-goods-img img{
+    width: 100%;
+}
+.receiver-icon{
+    float: left;
+    width: 20px;
+    height: 28px;
+    margin: 11px 10px 0 10px;
+    background: url(../../common/images/small_icon.png) -212px -307px no-repeat;
+}
+.receiver-box, .bank-card-box{
+    margin: 30px 0;
+}
+.address-info{
+    display: inline-block;
+    width: 660px;
+    border: 1px solid #d8d8d8;
+    padding: 10px 20px;
+}
+.address-info h3{
+    font-size: 14px;
+    color: #333;
+}
+.address-info p{
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+}
+.address-modify{
+    display: inline-block;
+    font-size: 14px;
+    background: #f22c2d;
+    color: #FFF;
+    margin-bottom: 20px;
+    padding: 0 30px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    bottom: -10px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.bank-card-form input{
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #eaeaea;
+    padding: 0 10px;
+}
+.bank-card-form label{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #666;
+    margin: 0 20px;
+}
+.bank-card-form .input-prompt{
+    width: 500px;
+    font-size: 12px;
+    color: #f22c2d;
+    margin-top: 20px;
+}
+.submit-order{
+    text-align: center;
+    margin: 50px 0;
+}
+.submit-order-btn{
+    font-size: 15px;
+    background: #f22c2d;
+    color: #FFF;
+    margin-bottom: 20px;
+    padding: 15px 80px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }

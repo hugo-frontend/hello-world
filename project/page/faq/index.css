@@ -1,0 +1,51 @@
+body {
+    background: #f5f5f5;
+}
+.faq-page .main {
+    background: #FFF;
+    padding: 20PX;
+}
+
+.faq-page h1 {
+    font-size: 24px;
+    color: #333;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+}
+.faq-page h2 {
+    font-size: 20px;
+    color: #333;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.payment-title-icon {
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    background: url(../../common/images/small_icon.png) -17px -307px no-repeat;
+}
+.hosting-title-icon {
+    float: left;
+    width: 36px;
+    height: 26px;
+    margin-right: 10px;
+    background: url(../../common/images/small_icon.png) -64px -307px no-repeat;
+}
+.faq-page h3,
+.faq-page p {
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+}
+.faq-page p {
+    padding: 0 5px;
+}
+.payment-issues-list li{
+    margin-bottom: 20px;
+}

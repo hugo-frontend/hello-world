@@ -47,34 +47,85 @@
     </header>
     <div class="background-color-gray"></div>
 
-    <!-- 矿机 -->
-    <div class="mining-machine-page">
+    <!-- USER -->
+    <div class="order-info-page">
         <div class="main">
-            <h1>矿机</h1>
-            <div>
-                <table class="mining-machine-list">
+            <h2 class="order-title"> <span class="order-info-icon"></span> 订单信息</h2>
+            <table class="order-list">
+                <thead>
                     <tr>
-                        <td width="400">
-                            <div class="goods-img">
-                                <img src="../../common/images/M1.jpg" alt="">
+                        <th>商品信息</th>
+                        <th></th>
+                        <th>单价</th>
+                        <th>数量</th>
+                        <th>合计</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="150">
+                            <div class="order-goods-img">
+                                <img src="../../common/images/M2.jpg" alt="">
                             </div>
                         </td>
+                        <td class="order-text-info" width="250">
+                            <h3>企业高级版M3</h3>
+                            <p>工业级IPFS硬盘矿机</p>
+                        </td>
                         <td>
-                            <h3>IPFS M1家庭版</h3>
                             <div class="goods-price">
                                 <span class="currency">￥</span>
                                 <span class="price">2599.00</span>
                             </div>
-                            <span class="hot-style">Hot</span>
                         </td>
-                        <td width="200">
-                            <a class="buy-now" href="#">立即购买</a>
+                        <td>
+                            <span class="qty">1</span>
+                        </td>
+                        <td>
+                            <div class="goods-price total">
+                                <span class="currency">￥</span>
+                                <span class="price">2599.00</span>
+                            </div>
                         </td>
                     </tr>
-                </table>
+                </tbody>
+            </table>
+            <h2 class="order-title"> <span class="receiver-icon"></span> 收货人</h2>
+            <div class="receiver-box">
+                <div class="address-info">
+                    <h3>默认地址</h3>
+                    <p class="receiver">
+                        <span>收货人：</span> 徐琳</p>
+                    <p class="user-phone">
+                        <span>手机：</span> 17651354641</p>
+                    <p class="address-details">
+                        <span>地址：</span> 中国 福建省 涵江区 涵西街道 坂雪岗大道2501号1205</p>
+                    <p class="zip-code">
+                        <span>邮编：</span> 425789</p>
+                </div>
+                <a href="#" class="address-modify">修改</a>
+            </div>
+            <h2 class="order-title"> <span class="receiver-icon"></span> 转到银行卡</h2>
+            <div class="bank-card-box">
+                <form action="" class="bank-card-form" data-parsley-validate>
+                    <table>
+                        <tr>
+                            <td><label for="bank-card-num">银行卡号</label></td>
+                            <td><input type="text" id="bank-card-num" placeholder="填写您用于转账汇款的银行卡" data-parsley-required="true"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                    <p class="input-prompt">您提交的银行卡仅用于星际大陆平台核对到账结果，不做其他用途</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="submit-order"><button type="submit" class="submit-order-btn">提交订单</button></p>
+                </form>
             </div>
         </div>
     </div>
+    
 
     <!-- 尾部 -->
     <footer>
@@ -140,6 +191,7 @@
 
     <script type="text/javascript" src="../../common/js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="../../common/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="../../common/js/parsley.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </body>
 
