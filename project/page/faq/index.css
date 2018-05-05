@@ -7,7 +7,7 @@ body {
 }
 
 .faq-page h1 {
-    font-size: 24px;
+    font-size: 30px;
     color: #333;
     height: 70px;
     line-height: 70px;
@@ -15,7 +15,7 @@ body {
     margin-bottom: 20px;
 }
 .faq-page h2 {
-    font-size: 20px;
+    font-size: 24px;
     color: #333;
     height: 26px;
     line-height: 26px;
@@ -39,9 +39,9 @@ body {
 }
 .faq-page h3,
 .faq-page p {
-    font-size: 14px;
+    font-size: 16px;
     color: #333;
-    line-height: 24px;
+    line-height: 28px;
 }
 .faq-page p {
     padding: 0 5px;

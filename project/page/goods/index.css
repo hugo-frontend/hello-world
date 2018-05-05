@@ -87,13 +87,13 @@ div.zoomMask {
     color: #666;
 }
 .brandPriceBox {
-    padding: 10px 30px;
+    padding: 15px 30px;
     background: #eaeaea;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .brandPriceBox td{
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 .deposit{
@@ -103,10 +103,12 @@ div.zoomMask {
 .deposit .currency{
     margin-right: 5px;
     font-size: 22px;
+    color: #f22c2d;
 }
 .deposit .price{
     margin-right: 5px;
-    font-size: 22px;
+    font-size: 24px;
+    color: #f22c2d;
 }
 
 .goods-select td{
@@ -117,6 +119,7 @@ div.zoomMask {
     display: none;
 }
 .system-radio-label{
+    display: inline-block;
     padding: 2px 7px;
     color: #999;
     border: 1px solid #999;
@@ -158,7 +161,7 @@ div.zoomMask {
     top: 10px;
 }
 .buy-now{
-    width: 180px;
+    padding: 0 60px;
     height: 40px;
     line-height: 40px;
     font-size: 16px;
@@ -166,6 +169,7 @@ div.zoomMask {
     background: #f22c2d;
     border: none;
     cursor: pointer;
+    margin-top: 20px;
 }
 .goods-title{
     padding: 0 30px;
@@ -212,7 +216,6 @@ div.zoomMask {
 .after-sale-policy h3{
     list-style: decimal;
     line-height: 24px;
-    color: #000;
     margin-top: 25px;
 }
 .online-service1{
@@ -229,7 +232,4 @@ div.zoomMask {
     height: 24px;
     margin-top: 5px;
     background: url(../../common/images/small_icon.png) -137px -397px no-repeat;
-}
-.goods-price{
-    margin: 0;
 }

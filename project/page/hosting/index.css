@@ -1,0 +1,156 @@
+body {
+    background: #f5f5f5;
+}
+.hosting-page .main {
+    background: #FFF;
+    padding: 20PX;
+}
+
+.hosting-page h1 {
+    font-size: 30px;
+    color: #333;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+}
+.hosting-page h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.hosting-banner{
+    margin-top: 30px;
+    text-align: center;
+}
+.hosting-banner img{
+    margin: auto;
+}
+.what-hosting ul{
+    margin-left: 22px;
+}
+.what-hosting ul li{
+    font-size: 16px;
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+.download-hosting-protocol{
+    font-size: 16px;
+    text-decoration: none;
+    color: #f22c2d;
+    margin-left: 22px;
+}
+.posting-characteristic{
+    border: 1px solid #d8d8d8;
+    padding: 50px 94px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.posting-characteristic h3{
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 400;
+}
+.posting-characteristic p{
+    font-size: 14px;
+    text-align: center;
+}
+.stable-reliable, .cost-cheap, .avoid-noise{
+    float: left;
+    width: 323px;
+    text-align: center;
+    border-right: 1px solid #d8d8d8;
+}
+.avoid-noise{
+    border: none;
+}
+.stable-reliable-icon{
+    display: block;
+    width: 65px;
+    height: 77px;
+    margin: auto;
+    background: url(../../common/images/small_icon.png) -10px -130px no-repeat;
+}
+.cost-cheap-icon{
+    display: block;
+    width: 75px;
+    height: 77px;
+    margin: auto;
+    background: url(../../common/images/small_icon.png) -95px -130px no-repeat;
+}
+.avoid-noise-icon{
+    display: block;
+    width: 76px;
+    height: 77px;
+    margin: auto;
+    background: url(../../common/images/small_icon.png) -190px -130px no-repeat;
+}
+
+.how-hosting{
+    margin-bottom: 40px;
+}
+.how-hosting .download-hosting-protocol{
+    margin: 0;
+}
+.how-hosting table{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 20px;
+}
+.how-hosting td{
+    text-align: center;
+    padding: 30px 0;
+}
+.how-hosting p{
+    font-size: 14px;
+    margin-top: 30px;
+}
+.how-list-num{
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    color: #FFF;
+    background: #f22c2d;
+    margin-bottom: 30px;
+}
+.right-arrow::after{
+    content: "›";
+    font-size: 45px;
+    color: #f22c2d;
+}
+.shopping-cart-icon{
+    display: block;
+    width: 66px;
+    height: 60px;
+    margin: auto;
+    background: url(../../common/images/small_icon.png) -10px -227px no-repeat;
+}
+.transport-icon{
+    display: block;
+    width: 66px;
+    height: 60px;
+    margin: auto;
+    background: url(../../common/images/small_icon.png) -95px -227px no-repeat;
+}
+.Settings-icon{
+    display: block;
+    width: 51px;
+    height: 60px;
+    margin: auto;
+    background: url(../../common/images/small_icon.png) -181px -227px no-repeat;
+}
+.income-icon{
+    display: block;
+    width: 51px;
+    height: 60px;
+    margin: auto;
+    background: url(../../common/images/small_icon.png) -252px -227px no-repeat;
+}

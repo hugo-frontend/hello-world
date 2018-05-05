@@ -5,6 +5,7 @@
   font-size: 14px;
   font-family: Microsoft YaHei;
   list-style: none;
+  color: #333;
 }
 .main{
   width: 1200px;
@@ -28,7 +29,7 @@ input[type=text] {
 
 .top-left-name {
   float: left;
-  font-size: 12px;
+  font-size: 16px;
   color: #FFF;
 }
 
@@ -40,11 +41,15 @@ input[type=text] {
   padding: 0 2px;
   background: #FFF;
   color: #000;
-  font-size: 14px;
+  font-size: 18px;
+  margin-left: 14px;
 }
 
 .nav-box {
   height: 95px;
+}
+.nav-box .main{
+    position: relative;
 }
 
 .logo-icon {
@@ -67,31 +72,32 @@ input[type=text] {
   height: 100%;
   margin: 0 20px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 22px;
   color: #010101;
 }
 
-.nav-box .nav-item:hover {
-  border-bottom: 2px solid #f22c2d;
+.nav-box .nav-item:hover, .nav-box .nav-item.active {
+  border-bottom: 3px solid #f22c2d;
 }
 
 .login-box {
-  float: right;
-  margin-top: 35px;
+  position: absolute;
+  top: 35px;
+  right: 0;
 }
 
 .login-box .login-alert-btn {
   display: inline-block;
   height: 20px;
   line-height: 20px;
-  font-size: 18px;
-  padding: 0 10px;
-  border-right: 1px solid #000;
+  font-size: 22px;
+  padding: 0 8px;
+  border-right: 2px solid #000;
   cursor: pointer;
 }
 .login-box .register-alert-btn {
-  font-size: 18px;
-  padding: 0 10px;
+  font-size: 22px;
+  padding-left: 8px;
   line-height: 20px;
   cursor: pointer;
 }
@@ -102,9 +108,8 @@ input[type=text] {
 
 .login-box .login-user-icon {
   float: left;
-  width: 18px;
+  width: 22px;
   height: 20px;
-  margin-right: 5px;
   background: url(../../common/images/small_icon.png) -229px -357px no-repeat;
 }
 .footer-box{
@@ -142,7 +147,7 @@ input[type=text] {
   margin: auto;
 }
 .wechat-info p {
-  font-size: 12px;
+  font-size: 14px;
   color: #FFF;
   text-align: center;
   margin-top: 15px;
@@ -151,12 +156,13 @@ input[type=text] {
   float: left;
   color: #FFF;
   width: 500px;
-  margin: 30px 0 0 40px;
+  margin: 30px 0 0 55px;
 }
 .contact-us p{
   margin-bottom: 10px;
   line-height: 22px;
-  font-size: 16px
+  font-size: 18px;
+  color: #FFF;
 }
 .knowledge-planet-icon{
   float: left;
@@ -183,8 +189,7 @@ input[type=text] {
 
 .friend-link{
   clear: both;
-  padding: 0 30px;
-  overflow: hidden;
+  padding: 0 50px;
 }
 .friend-link span{
   float: left;
@@ -198,7 +203,7 @@ input[type=text] {
 }
 .link li a{
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   color: #FFF;
   padding: 0 10px;
   border-left: 1px solid #FFF;
@@ -210,14 +215,8 @@ input[type=text] {
 
 .goods-price {
   display: inline-block;
-  margin: 30px auto 0;
-  background: #f22c2d;
   color: #FFF;
   padding: 5px 20px;
-}
-
-.goods-price span {
-  color: #FFF;
 }
 
 .goods-price .currency {
@@ -225,7 +224,7 @@ input[type=text] {
 }
 
 .goods-price .price {
-  font-size: 18px;
+  font-size: 14px;
 }
 .hot-style {
   float: left;
@@ -234,6 +233,7 @@ input[type=text] {
   background: #f22c2d;
   color: #fff;
   margin-right: 10px;
+  border-radius: 3px;
 }
 .buy-now {
   width: 180px;
