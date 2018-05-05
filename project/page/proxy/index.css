@@ -1,0 +1,63 @@
+body {
+    background: #f5f5f5;
+}
+.proxy-info-page .main {
+    background: #FFF;
+    padding: 20PX;
+    overflow: hidden;
+    min-height: 860px;
+}
+.background-color-gray {
+    height: 30px;
+    background: #e8e8e8
+}
+.proxy-info-page h1 {
+    font-size: 24px;
+    color: #333;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.proxy-banner-box{
+    margin-top: 40px;
+    text-align: center;
+}
+.proxy-banner-box img {
+    margin: auto
+}
+.proxy-info{
+    text-align: center;
+    margin: 30px 0 80px;
+}
+.proxy-info-item1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+.proxy-info-item2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.proxy-info-item3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+.proxy-info-item4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+.download-agreement{
+    display: inline-block;
+    font-size: 15px;
+    color: #FFF;
+    padding: 20px 80px;
+    text-decoration: none;
+    background: #f22c2d;
+    margin-top: 20px;
+    border-radius: 5px;
+}

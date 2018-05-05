@@ -26,11 +26,9 @@ $(document).ready(function(){
     $("#imageMenu li a").bind("mouseover",function(){
         $(this).parents("li").addClass("tb-selected").siblings().removeClass("tb-selected");
         $(".jqzoom").attr('src',$(this).find("img").attr("mid"));
-        $(".jqzoom").attr('rel',$(this).find("img").attr("big"));
     }).bind("click",function(){
         $(this).parents("li").addClass("tb-selected").siblings().removeClass("tb-selected");
         $(".jqzoom").attr('src',$(this).find("img").attr("mid"));
-        $(".jqzoom").attr('rel',$(this).find("img").attr("big"));
     });
     $(".js-hardAddCount").on("mousedown", function (event) {
         $(".js-hardCount").val(parseInt($(".js-hardCount").val()) + 1);

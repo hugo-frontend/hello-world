@@ -230,3 +230,6 @@ div.zoomMask {
     margin-top: 5px;
     background: url(../../common/images/small_icon.png) -137px -397px no-repeat;
 }
+.goods-price{
+    margin: 0;
+}
